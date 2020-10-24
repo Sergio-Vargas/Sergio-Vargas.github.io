@@ -1,0 +1,20 @@
+.titulo{
+	background-color: lightblue;
+	text-align: center;
+	width: 400px;
+}
+.contenido{
+	text-align:justify;
+	float: right;
+	font-size: 18px;
+}
+.imagen{
+	float:right;
+}
+.nombre{
+	float:right;
+
+}
+.cuerpo{
+	margin: 10px;
+}
