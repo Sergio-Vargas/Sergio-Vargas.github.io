@@ -1,0 +1,62 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	background-color:white;
+}
+h1{
+font-family: 'Raleway', sans-serif;
+font-family: 'Texturina', serif;
+font-size: 60px;
+padding: 0;
+margin: 0;
+text-align: center;
+}
+header{
+	width: 100%;
+}
+
+.navegacion{
+	width: 1000px;
+	margin:30px auto;
+	background:black;
+}
+
+.navegacion ul{
+	list-style: none;
+}
+
+.menu > li{
+	position: relative;
+	display: inline-block;
+}
+
+.menu > li > a{
+	display: block;
+	padding: 15px 60px;
+	color:white;
+	text-decoration: none;
+	font-family: 'Raleway', sans-serif;
+	font-family: 'Texturina', serif;
+	font-size: 20px;
+}
+
+.menu li a:hover{
+	color:green;
+	transition: all .3s;
+}
+
+p{
+font-family: 'Open Sans Condensed', sans-serif;
+font-size: 20px;
+text-align: center;	
+}
+.contenido{
+	float: right;
+	margin:0 250px 0;
+	padding: 20px;
+}
+.imagen{
+	float:right;
+}
