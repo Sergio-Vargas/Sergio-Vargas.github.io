@@ -1,0 +1,87 @@
+body{
+	background-color:#E6E8E8;
+}
+*{
+	padding: 0;
+	margin: 0;
+}
+h1{
+font-family: 'Raleway', sans-serif;
+font-family: 'Texturina', serif;
+font-size: 70px;
+padding: 0;
+margin: 0;
+text-align: center;
+}
+header{
+	width: 100%;
+}
+/*MENU*/
+.nav{
+	width: 1107px;
+	margin: 30px auto;
+	background-color:#5C6363;
+	border:2px solid black;
+}
+
+.nav ul{
+	list-style: none;
+}
+
+.menu > li{
+	position: relative;
+	display: inline-block;
+}
+
+.menu > li > a{
+	display: block;
+	padding: 15px 40px;
+	color:white;
+	text-decoration: none;
+	font-family: 'Raleway', sans-serif;
+	font-family: 'Texturina', serif;
+	font-size: 20px;
+	
+}
+
+.menu li a:hover{
+	color:green;
+	transition: all .3s;
+	background-color:#E6E8E8;
+}
+
+/* Submenu*/
+
+.submenu{
+	position: absolute;
+	background: #5C6363;
+	width: 100%;
+	visibility: hidden;
+}
+
+.submenu li a{
+	display: block;
+	padding: 15px;
+	color:white;
+	font-family: 'Raleway', sans-serif;
+	font-family: 'Texturina', serif;
+	text-decoration: none;
+	border:1px solid black;
+	font-size:20px;
+}
+
+.menu li:hover .submenu{
+	visibility: visible;
+	opacity: 1;
+}
+/*Tabla*/
+table,th,td{
+	font-family: 'Xanh Mono', monospace;
+	text-align:center;
+	font-size: 30px;
+	border:2px solid black;
+}
+.titulo{
+	border:none;
+	color:green;
+}	
