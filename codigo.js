@@ -1,10 +1,10 @@
 function Noche(){
-	console.log("hola")
-	document.body.style.backgroundColor= "RGB(46, 80, 165)";
+	document.body.style.backgroundColor.toggle= "RGB(46, 80, 165)";
 	celda = document.getElementById("tabla");
 	celda.style.backgroundColor="RGB(230, 232, 232)";
 	nav=document.getElementById("nav");
 	nav.style.backgroundColor="gray"
+	
 }
 function sendMessage(){
 msj=document.getElementById("msj").value;
